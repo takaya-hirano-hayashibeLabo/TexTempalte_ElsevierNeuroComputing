@@ -1,9 +1,11 @@
 # tex custom template
+Elsevier NeuroComputing用のtexテンプレート  
+公式のやつを自分が使いやすいようにカスタマイズした  
 
 ## 投稿雑誌
 Elsevier NeuroComputing
 
-## テンプレート
+## Original template
 以下のリンクの`elsarticle-template-num.tex`を使用  
 https://www.sciencedirect.com/journal/neurocomputing/publish/guide-for-authors#:~:text=%E3%81%97%E3%81%BE%E3%81%99%E3%80%82-,%E3%83%A9%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9,-LaTeX%20%E6%8F%90%E5%87%BA%E7%89%A9
 
@@ -41,11 +43,11 @@ pdflatex -output-directory %build_dir% %file%.tex
 数式, 表, 図の参照時の表記方法は, 他のElesevier Neurocomputingの他の論文を真似した  
 
 ### 参照コマンドリスト
-| 対象     | 参照コマンド  | 参照先           |
+| 対象     | 参照コマンド  | 表記サンプル           |
 | -------- | ------------- | ---------------- |
-| 数式     | \refeq{eq1}   | Eq. \ref{eq1}    |
-| 表       | \reftab{tab1} | Table \ref{tab1} |
-| 図       | \reffig{fig1} | Fig. \ref{fig1}  |
+| 数式     | \refeq{eq1}   | Eq. 1   |
+| 表       | \reftab{tab1} | Table 1 |
+| 図       | \reffig{fig1} | Fig. 1  |
 | 参考文献 | \cite{ref1}   | [1]              |
 
 ### カスタムコマンド
